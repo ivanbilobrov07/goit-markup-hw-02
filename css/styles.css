@@ -1,0 +1,156 @@
+/* Основной цвет текста #2E2F42 */
+/* Вторичный цвет текста #434455 */
+/* Акцент #4D5AE5 */
+/* Белый #FFFFFF */
+/* Акцентный текст #E7E9FC */
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --white-color: #ffffff;
+  --accent-text-color: #e7e9fc;
+  --main-hover-color: #404bbf;
+  --main-font-font-family: "Roboto", sans-serif;
+  --secondary-font-font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Header */
+
+.logo {
+  font-family: var(--secondary-font-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.decorarion-header {
+  color: var(--title-text-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.nav-list-link.current {
+  color: var(--main-hover-color);
+}
+
+.contacts-list-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--main-hover-color);
+}
+
+/* Hero */
+
+.hero {
+  /* background-color: var(--title-text-color); */
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+  background-color: #2e2f42;
+}
+
+.primary-button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  background-color: var(--main-hover-color);
+}
+
+/* Feachures */
+
+.feachures-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* Examples */
+
+.examples-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  /* background-color: var(--title-text-color); */
+}
+
+.footer-text {
+  color: var(--accent-text-color);
+}
+
+.decorarion-footer {
+  color: var(--white-color);
+  background-color: #2e2f42;
+}
+
+/* portfolio.html */
+
+.secondary-button {
+  background-color: var(--accent-text-color);
+  color: var(--accent-color);
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  background-color: var(--main-hover-color);
+  color: var(--white-color);
+}
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
