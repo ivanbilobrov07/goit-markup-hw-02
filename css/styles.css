@@ -10,6 +10,7 @@
   --white-color: #ffffff;
   --accent-text-color: #e7e9fc;
   --main-hover-color: #404bbf;
+  --background-color: #f4f4fd;
   --main-font-font-family: "Roboto", sans-serif;
   --secondary-font-font-family: "Raleway", sans-serif;
 }
@@ -33,6 +34,7 @@ body {
 }
 
 .button {
+  cursor: pointer;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -67,6 +69,11 @@ body {
   color: var(--main-hover-color);
 }
 
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--main-hover-color);
+}
+
 .contacts-list-link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -81,7 +88,7 @@ body {
 /* Hero */
 
 .hero {
-  /* background-color: var(--title-text-color); */
+  background-color: var(--title-text-color);
 }
 
 .hero-title {
@@ -89,7 +96,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--white-color);
-  background-color: #2e2f42;
 }
 
 .primary-button {
@@ -122,10 +128,16 @@ body {
   text-align: center;
 }
 
+/* Team */
+
+.team {
+  background-color: var(--background-color);
+}
+
 /* Footer */
 
 .footer {
-  /* background-color: var(--title-text-color); */
+  background-color: var(--title-text-color);
 }
 
 .footer-text {
@@ -134,7 +146,6 @@ body {
 
 .decorarion-footer {
   color: var(--white-color);
-  background-color: #2e2f42;
 }
 
 /* portfolio.html */
@@ -148,6 +159,10 @@ body {
 .secondary-button:focus {
   background-color: var(--main-hover-color);
   color: var(--white-color);
+}
+
+.portfolio-list-link {
+  text-decoration: none;
 }
 
 .portfolio-item-title {
