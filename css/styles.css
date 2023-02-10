@@ -170,3 +170,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
+
+.portfolio-item-text {
+  color: var(--primary-text-color);
+}
